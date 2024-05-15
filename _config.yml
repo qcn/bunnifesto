@@ -19,7 +19,31 @@
 # in the templates via {{ site.myvariable }}.
 
 title: QC's Bunnifesto
+tagline: like a manifesto, but with more bunny
+author: Quynh-Chi Nguyen
 email: your-email@example.com
+lang: en
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.html"}
+  - {file: "archive.html"}
+  - {file: "about.md"}
+  - {file: "talks.md"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:todo"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/priority_q"}
+  - {title: Github, icon: github, url: "https://github.com/qcn"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+
 description: >- # this means to ignore newlines until "baseurl:"
   Like a manifesto, but with more bunny
 url: https://bunnifesto.dev # the base hostname & protocol for your site, e.g. http://example.com
@@ -27,7 +51,8 @@ twitter_username: priority_q
 github_username: qcn
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: niklasbuschmann/contrast@v3.0
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
