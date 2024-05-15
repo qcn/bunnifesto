@@ -27,7 +27,8 @@ twitter_username: priority_q
 github_username: qcn
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
