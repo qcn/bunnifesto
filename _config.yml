@@ -21,14 +21,31 @@
 title: QC's Bunnifesto
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Like a manifesto, but with more bunny
+  QC's software engineering Opinions.
 url: https://bunnifesto.dev # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: priority_q
-github_username: qcn
+
+# Chirpy config
+tagline: Like a manifesto, but with more bunny
+remote_theme: cotes2020/jekyll-theme-chirpy
+lang: en
+timezone: Australia/Melbourne
+github:
+  username: qcn
+twitter:
+  username: priority_q
+social:
+  name: Quynh-Chi Nguyen
+  email: your-email@example.com
+
+toc: true
+
+# Old minima config
+# theme: minima
+# twitter_username: priority_q
+# github_username: qcn
 
 # Build settings
-#theme: minima
-remote_theme: jekyll-theme-chirpy
+
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
