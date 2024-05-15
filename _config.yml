@@ -25,6 +25,7 @@ email: your-email@example.com
 lang: en
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
+timezone: Australia/Melbourne
 
 show_excerpts: true        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
