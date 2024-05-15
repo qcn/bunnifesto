@@ -22,8 +22,7 @@ title: QC's Bunnifesto
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Like a manifesto, but with more bunny
-baseurl: "/bunnifesto" # the subpath of your site, e.g. /blog
-url: https://qcn.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://bunnifesto.dev # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: priority_q
 github_username: qcn
 
