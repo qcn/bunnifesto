@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Big aurora photos!
+excerpt_separator: <!--more-->
 ---
 
-Seconds to load: <span id="load-time"></span>
-
 Here are some large photos of an aurora.
+<!--more-->
+
+Seconds to load: <span id="load-time"></span>
 
 ![May 11, 2024 aurora](/assets/images/aurora/20240511-aurora-01.jpg)
 
