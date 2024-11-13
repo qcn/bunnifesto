@@ -20,7 +20,17 @@ Here is a bonus photo of the Milky Way:
 ![Milky Way](/assets/images/astro/20230514-milky-way.jpg)
 
 <script type="text/javascript">
-    requestAnimationFrame(renderLoadTime);
+    if (document.prerendering) {
+        document.addEventListener(
+            "prerenderingchange",
+            () => requestAnimationFrame(renderLoadTime),
+            { once: true },
+        );
+    }
+    else {
+        requestAnimationFrame(renderLoadTime);
+    }
+
     function renderLoadTime() {
         var navPerformanceEntry = window.performance.getEntriesByType("navigation")[0];
         var loadTime = navPerformanceEntry.duration || window.performance.now();
