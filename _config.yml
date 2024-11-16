@@ -62,6 +62,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:name
+  posts:
+    output: true
+    permalink: /:collection/:year/:month/:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
