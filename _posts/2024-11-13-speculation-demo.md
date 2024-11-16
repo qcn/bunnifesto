@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Speculation demo
 excerpt_separator: <!--more-->
 ---
@@ -16,6 +16,12 @@ hover over <a class="prerender-me" href="{% post_url 2024-11-13-big-aurora-photo
             {
                 "where": { "selector_matches": ".prerender-me" },
                 "eagerness": "moderate"
+            }
+        ],
+        "prefetch": [
+            {
+                "where": { "selector_matches": ".prefetch-me" },
+                "eagerness": "immediate"
             }
         ]
     }
