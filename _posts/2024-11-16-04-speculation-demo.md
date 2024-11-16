@@ -8,7 +8,7 @@ This is an example of a page that speculates.
 <!--more-->
 
 These are some links to photos of the sky:
-* [May 2024 aurora]({% post_url 2024-11-13-big-aurora-photos %})
+* [May 2024 aurora]({% post_url 2024-11-13-big-may-aurora-photos %})
 * [August 2024 aurora]({% post_url 2024-11-16-02-august-aurora %})
 * [October 2024 aurora]({% post_url 2024-11-16-03-october-aurora %})
 * <a class="prerender-me" href="{% post_url 2024-11-16-01-milky-way-photo %}">Milky Way</a>
