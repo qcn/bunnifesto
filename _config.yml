@@ -21,7 +21,7 @@
 title: QC's Bunnifesto
 tagline: like a manifesto, but with more bunny
 author: Quynh-Chi Nguyen
-email: your-email@example.com
+email: qc@bunnifesto.dev
 lang: en
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
@@ -39,7 +39,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "talks.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:todo"}
+  - {title: Mail, icon: envelope, url: "mailto:qc@bunnifesto.dev"}
+  - {title: Bluesky, icon: bluesky, url: "https://bsky.app/profile/qcn.bsky.social"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/priority_q"}
   - {title: Github, icon: github, url: "https://github.com/qcn"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
