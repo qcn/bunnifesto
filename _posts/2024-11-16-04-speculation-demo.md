@@ -7,17 +7,19 @@ excerpt_separator: <!--more-->
 This is an example of a page that speculates.
 <!--more-->
 
-These are some links to photos of the sky:
-* [May 2024 aurora]({% post_url 2024-11-13-big-may-aurora-photos %})
-* [August 2024 aurora]({% post_url 2024-11-16-02-august-aurora %})
-* [October 2024 aurora]({% post_url 2024-11-16-03-october-aurora %})
-* <a class="prerender-me" href="{% post_url 2024-11-16-01-milky-way-photo %}">Milky Way</a>
+These are some links to photos of the sky on this blog. They are configured to prerender with
+the indicated [eagerness]:
+* [May 2024 aurora]({% post_url 2024-11-13-big-may-aurora-photos %}) [moderate]
+* [August 2024 aurora]({% post_url 2024-11-16-02-august-aurora %}) [moderate]
+* [October 2024 aurora]({% post_url 2024-11-16-03-october-aurora %}) [moderate]
+* <a class="prerender-me" href="{% post_url 2024-11-16-01-milky-way-photo %}">Milky Way</a> [eager]
 
-Here are some other links:
+Here are some other links that are configured to prefetch with `eagerness:
+immediate`:
 * <a class="prefetch-me" href="{% post_url 2024-05-16-site-in-progress
-  %}">Another page on this site</a>
-* <a class="prefetch-me" href="https://www.abc.net.au/news">A
-  page elsewhere</a>
+  %}">Another page on this site (same-site prefetch)</a>
+* <a class="prefetch-me" href="https://www.abc.net.au/news">ABC News website
+  (cross-site prefetch)</a>
 
 <script type="speculationrules">
     {
