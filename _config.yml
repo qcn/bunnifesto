@@ -63,7 +63,7 @@ plugins:
 collections:
   talks:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:path
   posts:
     output: true
     permalink: /:collection/:year/:month/:title/

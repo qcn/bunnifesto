@@ -9,10 +9,10 @@ This is an example of a page that speculates.
 
 These are some links to photos of the sky on this blog. They are configured to prerender with
 the indicated [eagerness]:
-* [May 2024 aurora]({% post_url 2024-11-13-big-may-aurora-photos %}) [moderate]
-* [August 2024 aurora]({% post_url 2024-11-16-02-august-aurora %}) [moderate]
-* [October 2024 aurora]({% post_url 2024-11-16-03-october-aurora %}) [moderate]
-* <a class="prerender-me" href="{% post_url 2024-11-16-01-milky-way-photo %}">Milky Way</a> [eager]
+* [May 2024 aurora]({% link _talks/speculation-rules/big-may-2024-aurora-photos.md %}) [moderate]
+* [August 2024 aurora]({% link _talks/speculation-rules/august-2024-aurora-photo.md %}) [moderate]
+* [October 2024 aurora]({% link _talks/speculation-rules/october-2024-aurora-photo.md %}) [moderate]
+* <a class="prerender-me" href="{% link _talks/speculation-rules/milky-way-photo.md %}">Milky Way</a> [eager]
 
 Here are some other links that are configured to prefetch with `eagerness:
 immediate`:
