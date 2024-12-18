@@ -43,6 +43,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Bluesky, icon: bluesky, url: "https://bsky.app/profile/qcn.bsky.social"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/priority_q"}
   - {title: Github, icon: github, url: "https://github.com/qcn"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/qcnguyen/"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 
