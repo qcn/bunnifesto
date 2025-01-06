@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article>
+  {% include meta.html post=page %}
+  {{ content }}
+  {% if page.comments != false and site.comments.isso or site.comments.disqus or site.comments.giscus %}
+    <hr>
+    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
+    {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
+    {% if site.comments.giscus %}
+    <script src="https://giscus.app/client.js"
+        data-repo="qcn/bunnifesto"
+        data-repo-id="R_kgDOLRvafA"
+        data-category="Post comments"
+        data-category-id="DIC_kwDOLRvafM4Clwhu"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+    </script>
+    {% endif %}
+    <noscript>Please enable JavaScript to view comments.</noscript>
+  {% endif %}
+</article>
