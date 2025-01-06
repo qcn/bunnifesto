@@ -27,24 +27,32 @@ excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 timezone: Australia/Melbourne
 
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-minimal: false             # use a dark header
+show_excerpts: true # show article excerpts on the home page
+show_frame: true # adds a gray frame to the site
+show_sidebar: false # show a sidebar instead of the usual header
+minimal: false # use a dark header
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "archive.html"}
-  - {file: "about.md"}
-  - {file: "talks.md"}
+navigation: # accepts {file, title, url, icon, sidebaricon}
+  - { file: "index.html" }
+  - { file: "archive.html" }
+  - { file: "about.md" }
+  - { file: "talks.md" }
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:qc@bunnifesto.dev"}
-  - {title: Bluesky, icon: bluesky, url: "https://bsky.app/profile/qcn.bsky.social"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/priority_q"}
-  - {title: Github, icon: github, url: "https://github.com/qcn"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/qcnguyen/"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+external: # shows a footer with social links - for available icons see fontawesome.com/icons
+  - { title: Mail, icon: envelope, url: "mailto:qc@bunnifesto.dev" }
+  - {
+      title: Bluesky,
+      icon: bluesky,
+      url: "https://bsky.app/profile/qcn.bsky.social",
+    }
+  - { title: Twitter, icon: twitter, url: "https://twitter.com/priority_q" }
+  - { title: Github, icon: github, url: "https://github.com/qcn" }
+  - {
+      title: LinkedIn,
+      icon: linkedin,
+      url: "https://www.linkedin.com/in/qcnguyen/",
+    }
+  - { title: Subscribe, icon: rss, url: "/feed.xml" }
 
 comments:
   giscus: true
@@ -69,7 +77,6 @@ collections:
   posts:
     output: true
     permalink: /:collection/:year/:month/:title/
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
