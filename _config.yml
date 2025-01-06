@@ -46,6 +46,8 @@ external:                  # shows a footer with social links - for available ic
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/qcnguyen/"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
+comments:
+  giscus: true
 
 description: >- # this means to ignore newlines until "baseurl:"
   Like a manifesto, but with more bunny
