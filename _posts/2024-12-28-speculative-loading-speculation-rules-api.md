@@ -4,7 +4,8 @@ title: Speculative Loading and the Speculation Rules API
 excerpt_separator: <!--more-->
 ---
 
-_Happy holidays! This article was written from a talk I gave at [Web
+_Happy holidays! This article was written from a 
+[talk]({{site.baseurl}}{% link _talks/speculation-rules.md %})) I gave at [Web
 Directions](https://webdirections.org/) Developer Summit 2024, and originally
 published as [Day 18 of the 2024 Planet Performance Web Performance Advent
 Calendar](https://calendar.perfplanet.com/2024/speculative-loading-and-the-speculation-rules-api/).
@@ -324,9 +325,9 @@ in their developer documentation.
 ## See it in action
 
 I used [this speculation rules demo]({% link _talks/speculation-rules/demo.md
-%}) for the Web Directions talk that this article was based on. I'll link the
-video here for more context when it's available, but feel free to contact me if
-you have any questions!
+%}) for [the Web Directions talk]({{site.baseurl}}{% link _talks/speculation-rules.md %}))
+that this article was based on. Watching the talk should give you context for the
+demo, but feel free to contact me if you have any questions!
 
 ### Further reading:
 
