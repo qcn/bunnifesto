@@ -8,7 +8,7 @@ I've been accused of talking too much. Occasionally I funnel that loquacity into
 something a little more productive...
 
 **Speculative loading and the Speculation Rules API** ([video/transcript/slides via Conffab]({{site.baseurl}}{% link _talks/speculation-rules.md %}))\
-<small>[Web Directions Developer Summit](https://webdirections.org/dev-summit/speakers/quynh-chi-nguyen.php), Sydney 2024</small>\
+<small>[Web Directions Developer Summit](https://webdirections.org/blog/dev-summit-24-session-speculative-loading-the-future-of-navigation/), Sydney 2024</small>\
 [Speculation rules demo used in the talk]({% link _talks/speculation-rules/demo.md %})\
 [Blog post written from talk]({% post_url
 2024-12-28-speculative-loading-speculation-rules-api %})
